@@ -14,8 +14,8 @@ const CrudApi = () => {
     const [loading, setLoading] = useState(false)
 
     let api = helpHttp();
-    let url = "https://mi-api2.000webhostapp.com/libros";
-    let urlDelete = "https://mi-api2.000webhostapp.com/librosdelete"; //debido a que mi server solo acepta metodo get y post
+    let url = process.env.REACT_APP_url;
+    let urlDelete = process.env.REACT_APP_urlDelete; //debido a que mi server solo acepta metodo get y post
 
 
     
