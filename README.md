@@ -1,0 +1,1 @@
+Es una app echa con React Js que se conecta con una Api Rest construida Laravel/Lumen. Permite hacer CRUD con 3 campos(titulo,descripcion e imagen) y los renderiza luego de los cambios. El template fue extraido de una libreria(e-commerce) de bootstrap y le hice unas pequeñas modificaciones en el responsive. Quizá en el futuro le implemente registro de usuarios y otras cosas.

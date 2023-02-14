@@ -1,0 +1,30 @@
+@media (prefers-reduced-motion: no-preference) {
+  .logoReact {
+    animation: logoReact infinite 20s linear;
+  }
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+
+@keyframes logoReact {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logoReact{
+  width: 70px;
+}
+.milogo{
+  width: 130px;
+}
